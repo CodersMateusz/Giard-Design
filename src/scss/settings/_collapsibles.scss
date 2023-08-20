@@ -1,0 +1,7 @@
+.collapsible__content {
+ display: none;
+}
+
+.collapsible--expanded .collapsible__content {
+  display: block;
+}

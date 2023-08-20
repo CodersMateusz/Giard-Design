@@ -1,5 +1,9 @@
-// Import our custom CSS
 import "../scss/styles.scss";
-
-// Import all of Bootstrap's JS
 import * as bootstrap from "bootstrap";
+
+const collapsibles = document.querySelectorAll(".collapsible");
+collapsibles.forEach((item) => {
+  item.addEventListener("click", function () {
+    this.classList.toggle("collapsible--expanded");
+  });
+});
