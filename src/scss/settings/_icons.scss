@@ -3,6 +3,10 @@
   height: 24px;
 }
 
+.icon-right {
+  transform: rotate(180deg);
+}
+
 .vector {
   width: 16px;
   height: 16px;
@@ -11,4 +15,8 @@
 .logo {
   width: 114px;
   height: 19px;
+}
+
+.btn .vector {
+  fill: #1B5B31;
 }

@@ -5,3 +5,29 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1440px
 );
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+  11: $spacer * 9,
+);
+
+.fs-custom {
+  font-size: 3.75rem;
+}
+
+@media (max-width: 960px) {
+  .fs-custom {
+    font-size: 2rem;
+  }
+}
