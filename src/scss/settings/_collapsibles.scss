@@ -12,6 +12,14 @@
 
  .collapsible--expanded .collapsible__content__flex {
   display: flex;
+  flex-direction: column;
+ }
+
+ @media (min-width: 960px) {
+  .collapsible--expanded .collapsible__content__flex {
+    display: flex;
+    flex-direction: row;
+   }
  }
 
 .collapsible--expanded .btn-more {
