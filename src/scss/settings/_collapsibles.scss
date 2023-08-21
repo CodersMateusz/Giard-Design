@@ -5,3 +5,15 @@
 .collapsible--expanded .collapsible__content {
   display: block;
 }
+
+.collapsible__content__flex {
+  display: none;
+ }
+
+ .collapsible--expanded .collapsible__content__flex {
+  display: flex;
+ }
+
+.collapsible--expanded .btn-more {
+  display: none;
+}
