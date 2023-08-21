@@ -5,3 +5,17 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
+
+.fs-custom-big {
+  font-size: 3.75rem;
+}
+
+@media (max-width: 960px) {
+  .fs-custom-big {
+    font-size: 2rem;
+  }
+}
+
+.fs-custom-small {
+  font-size: 0.75rem;
+}

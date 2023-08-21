@@ -20,14 +20,5 @@ $spacers: (
   9: $spacer * 7,
   10: $spacer * 8,
   11: $spacer * 9,
+  x2: $spacer * 2,
 );
-
-.fs-custom {
-  font-size: 3.75rem;
-}
-
-@media (max-width: 960px) {
-  .fs-custom {
-    font-size: 2rem;
-  }
-}
