@@ -3,3 +3,14 @@
     font-size: 0.75rem;
   }
 }
+
+.btn-outline-primary:hover {
+  background-color: white;
+  outline: none;
+  box-shadow: none;
+  color: #1B5B31;
+  font-size: 1.1rem;
+  transition: font-size 0.3s ease-in-out;
+}
+
+
