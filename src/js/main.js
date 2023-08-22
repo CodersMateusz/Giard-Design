@@ -1,5 +1,7 @@
 import "../scss/styles.scss";
 import * as bootstrap from "bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const collapsibles = document.querySelectorAll(".collapsible");
 collapsibles.forEach((item) => {
@@ -7,3 +9,5 @@ collapsibles.forEach((item) => {
     this.classList.toggle("collapsible--expanded");
   });
 });
+
+AOS.init();
